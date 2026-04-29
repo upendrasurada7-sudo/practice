@@ -16,6 +16,8 @@ public class UserService {
 	@Autowired
 	UserRepo userepo;
 	//new change to check the git status
+	
+	//new change for feature 1
 	public void save(User user) {
 		
 		userepo.save(user);
